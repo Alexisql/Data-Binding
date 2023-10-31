@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
@@ -26,6 +27,29 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="@string/name" />
 
+        <ImageView
+            android:id="@+id/iv_icon_level"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/description_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            app:levelIcon="@{viewModel.developer.level}"
+            tools:src="@drawable/ic_junior" />
+
+        <TextView
+            android:id="@+id/tv_years_experience_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/years_experience_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_icon_level" />
+
         <TextView
             android:id="@+id/tv_years_experience"
             android:layout_width="wrap_content"
@@ -35,7 +59,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_years_experience_label"
             tools:text="@string/years_value" />
 
         <TextView

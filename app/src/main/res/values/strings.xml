@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Data-Binding</string>
     <string name="name">Alexis</string>
-    <string name="years_value">0</string>
+    <string name="years_experience_label">Years of Experience</string>
+    <string name="years_value">5</string>
     <string name="years">Years ++</string>
     <string name="level_value">SENIOR</string>
     <string name="level">Level</string>
+    <string name="description_icon">developer icon based on your experience</string>
 </resources>
