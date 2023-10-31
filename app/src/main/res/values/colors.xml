@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="junior">#FF0000</color>
+    <color name="junior_middle">#FF9B00</color>
+    <color name="middle">#FFE800</color>
+    <color name="middle_senior">#CDFF00</color>
+    <color name="senior">#59FF00</color>
+    <color name="senior_senior">#00FF04</color>
 </resources>
